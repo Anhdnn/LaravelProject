@@ -58,9 +58,9 @@ Route::get('/unicode', function () {
 Route::get('/dashboard', function(){
     return view('dashboard');
 })->name('login');
-// Route::post('/unicode',function(){
-//     return "<h1>POST</h1>";
-// });
+Route::post('/unicode',function(){
+    return "<h1>POST</h1>";
+});
 // Route::put('/unicode', function(){
 //     return "<h1>PUT</h1>";
 // });
